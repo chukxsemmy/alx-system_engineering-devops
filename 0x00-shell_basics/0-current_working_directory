@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo pwd
+=======
+echo pwd
+>>>>>>> 0344acd5a96ade0ae473cfdb1b81c08f72176090
