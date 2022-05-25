@@ -1,1 +1,2 @@
-system engineering readme
+#!/bin/bash
+say hello yet again
