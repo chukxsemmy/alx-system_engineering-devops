@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((float $NUM))
+printf '%.2f\n' $NUM
