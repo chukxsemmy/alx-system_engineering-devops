@@ -7,8 +7,7 @@ import requests
 
 
 def sort_histogram(histogram={}):
-    '''Sorts and prints the given histogram.
-    '''
+    '''Sorts and prints the given histogram.'''
     histogram = list(filter(lambda kv: kv[1], histogram))
     histogram_dict = {}
     for item in histogram:
@@ -32,11 +31,9 @@ def sort_histogram(histogram={}):
     if res_str:
         print(res_str)
 
-
 def count_words(subreddit, word_list, histogram=[], n=0, after=None):
     '''Counts the number of times each word in a given wordlist
-    occurs in a given subreddit.
-    '''
+    occurs in a given subreddit.'''
     api_headers = {
         'Accept': 'application/json',
         "User-Agent": "linux:0x16.api.advanced"
